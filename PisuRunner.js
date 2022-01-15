@@ -40,7 +40,7 @@ async function Pisu() {
 
             let tokenpart = base64encode(Results.toString());
 
-            console.log(color.red("First Token Part:" + tokenpart));
+            console.log(color.red("First Token Part: " + tokenpart));
 
         }
 
