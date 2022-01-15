@@ -37,7 +37,8 @@ async function Pisu() {
         if(isNaN(Results)) {
             return console.log(color.white("There are only numbers in a userID."))
         } else {
-            let tokenpart = base64encode(Results);
+
+            let tokenpart = base64encode(Results.toString());
 
             console.log(color.red("First Token Part:" + tokenpart));
 
