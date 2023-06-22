@@ -39,3 +39,5 @@ Pisu is a tool developed for educational and entertainment purposes only. It sho
 
 Use Pisu responsibly and enjoy exploring the concept of user token generation within the bounds of ethical and legal guidelines.
 
+## How it works
+This tool is actually just checking if the entered userID is valid (i.e. only numbers), then converting it to base64 and finally it outputs the result.
